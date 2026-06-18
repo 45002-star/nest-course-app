@@ -17,7 +17,8 @@ export class AppService {
   getJson(): object {
     return {
       name: "Boon",
-      sure_name: 'Nattawat'
+      sure_name: 'Nattawat',
+      version : process.env.API_VERSION,
     };
   }
 }
